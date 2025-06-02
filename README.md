@@ -2,11 +2,11 @@
 
 Prodigy Infotech Internship | Web Development / Data Scraping
 
-📝 Overview
+ Overview
 
 This project demonstrates the use of Python for web scraping, specifically targeting book data from the online site Books to Scrape. The goal is to extract book titles, prices, and ratings from the main catalog page and display the data in a visually formatted HTML table.
 
-🛠️ Features
+ Features
 
  🔍 Extracts Title, Price, and Rating of each book listed
 
@@ -18,12 +18,12 @@ This project demonstrates the use of Python for web scraping, specifically targe
 
  💾 Saves output in a reusable, offline-readable HTML document
 
-🔗 Target Website
+ Target Website
 
   URL: http://books.toscrape.com/
- A sandbox site used widely for practicing web scraping.
+  A sandbox site used widely for practicing web scraping.
 
-💡 Logic & Workflow
+Logic & Workflow
 
 ~ Send a GET request to fetch HTML content.
 
@@ -39,7 +39,7 @@ This project demonstrates the use of Python for web scraping, specifically targe
 
 ~ Write the extracted data into an HTML table using inline CSS for better presentation.
 
-📂 Output File
+ Output File
 
 File Name: books.html
 Contains:
@@ -52,7 +52,7 @@ Contains:
 
 ⭐ Rating (e.g., One, Two, Three)
 
-🖥️ Technologies Used
+Technologies Used
 Python
 
 ~ requests – For sending HTTP requests
@@ -61,13 +61,13 @@ Python
 
 ~ HTML + CSS – For styled output display
 
-👨‍💻 Code Entry Point
+ Code Entry Point
 
 python task5.py
 
 The script will create a file named books.html in the current directory.
 
-🧑 Author
+Author
 
 Name: A. Kovardhini
 Course: B.Sc. Computer Science with Artificial Intelligence
